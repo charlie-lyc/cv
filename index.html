@@ -7,51 +7,82 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <!-- http://www.fileformat.info/info/unicode/utf8.htm -->
+  <!-- http://www.fileformat.info/info/charset/UTF-8/list.htm -->
+  <!-- character set(encoding type): Unicode Transformation Format-->
   <meta charset="utf-8">
-  <meta name="description" content="this site is personal site to communicate other people.">
-  <meta name="keywords" content="computer science, data science, software engineer, data scientist, web & app developer, entrepreneur, coding">
-  <meta name="author" content="youngcheol lee">
+  <meta name="description" content="This is Charlie's first personal site.">
+  <meta name="keywords" content="web and mobile application development, data analysis">
+  <meta name="author" content="Charlie Lee">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Emoji: Command + Control + Space -->
-  <title>😀Charlie's Personal Site</title>
   <style media="screen">
     img {
       border-radius: 50%;
     }
+
+    body {
+      background-color: #EAF6F6;
+    }
+
+    hr {
+      background-color: white;
+      border-style: none;
+      height: 2px;
+    }
   </style>
+  <!-- browser's CSS default values
+    ex) hr {
+          display: block;
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          margin-left: auto;
+          margin-right: auto;
+          border-style: inset;
+          border-width: 1px;
+        }  -->
+  <!-- https://www.w3schools.com/cssref/css_default_values.asp -->
+  <!-- https://developer.mozilla.org => keywords: "border-style" -->
+
+  <!-- Emoji: Command + Control + Space -->
+  <title>😄Charlie's Personal Site</title>
 </head>
 
+<!-- https://www.cs.dartmouth.edu/~thc/ -->
 <!-- http://www.cs.cornell.edu/home/kleinber -->
-<!-- https://www.cs.dartmouth.edu/~thc -->
-<!-- http://www.pascalvangemert.nl -->
 
 <body>
-  <!-- emphasis tag,  italic tag -->
-  <!-- strong tag, bold tag -->
-  <!-- If there's something wrong in internet or LinkedIn
-    <img src="image/my-profile.jpg" alt="youngcheol lee's profile picture">
-  -->
+  <!-- between 'body' and '>', style="background-color: #EAF6F6;" -->
+  <!-- https://developer.mozilla.org => keywords: "background-color", "color" -->
+  <!-- https://colorhunt.co/ -->
+
+  <!-- p(aragraph) element -->
+  <!-- i(nteresting), em(phasis) element -->
+  <!-- strong, b(old) element -->
+
+  <!-- If there's no image in "LinkedIn", "Twitter", or any other websites, here is local path
+    <img src="image/my-profile.jpg" alt="Charlie Lee's profile picture"> -->
+
   <table cellspacing="20">
     <tr>
       <td>
-        <img src="https://media.licdn.com/dms/image/C5603AQHCcxmlWRxB-g/profile-displayphoto-shrink_200_200/0?e=1580342400&v=beta&t=LBIswtVEXvwyMuRIErjGG1uMNHZxgONNklTyTiClS54" alt="youngcheol lee's profile picture">
+        <!-- HTML Element, HTML Attribute="Link Destination" -->
+        <img src="https://media-exp1.licdn.com/dms/image/C5603AQHCcxmlWRxB-g/profile-displayphoto-shrink_200_200/0?e=1597276800&v=beta&t=Y5cSP_bijudK-oRQJUnQjd_4sBwm4lcXs9NJpDLH5zU" alt="Charlie Lee's profile picture">
       </td>
       <td>
-        <h1>YOUNGCHEOL LEE</h1>
+        <h1>Charlie Lee</h1>
         <p>
           <i>
-            Student of Graduate School <br>
-            Department of <b>Computer Scinece</b> <br>
-            <!-- HTML Element, HTML Attribute="Link Destination", Link Text -->
-            <a href="http://www.ama.edu.ph/">AMA University</a> <br>
+            ex - Local Public Officer<br>
+            Agricultural Technology Center of<br>
+            Rural Dvelopment Administrationy
           </i>
         </p>
         <p>
-          I'm heading for
+          Now, I'm heading for<br>
           <em>
-            <strong>Software</strong> Engineer,
-            <strong>Data</strong> Scientist,
-            <strong>Web & App</strong> Developer, and Entrepreneur. <br>
+            <strong>Web / Mobile</strong> Applicaton Developer,<br>
+            <b></b>Data</b> Analyst, Engineer,<br>
+            Entrepreneur.
           </em>
         </p>
       </td>
@@ -62,20 +93,25 @@
 
   <h3>Educations</h3>
   <ul>
-    <li>BS in Horticultural Science</li>
-    <li>MS in Computer Science</li>
+    <li>BS in KNU</li>
   </ul>
 
   <hr>
 
-  <h3>Courses</h3>
+  <!-- u(nordered) l(ist), o(rdered) l(ist) element -->
+  <!-- li(st) element -->
+  <!-- a(nchor) element, h(yper) ref(erence) attribute -->
+  <h3>Related Courses</h3>
   <ul>
+    <!-- HTML Element, HTML Attribute="Link Destination", Link Text -->
     <li><a href="https://online-learning.harvard.edu/course/cs50-introduction-computer-science?delta=0">
         CS50: Introduction to Computer Science</a></li>
     <li><a href="https://www.udemy.com/share/1013gGCUoSdlhXRHg=/">
         Web Development Bootcamp</a></li>
     <li><a href="https://www.udemy.com/share/101WsWCUoSdlhXRHg=/">
         iOS App Development Bootcamp</a></li>
+    <li><a href="https://www.udemy.com/course/complete-android-n-developer-course/">
+        Android N Developer</a></li>
     <li>Data Science</li>
     <ol>
       <li><a href="https://www.edx.org/course/data-science-r-basics">
@@ -101,6 +137,8 @@
 
   <hr>
 
+  <!-- t(able) h(ead), t(able) d(ata) element in t(able) r(ow) element-->
+  <!-- t(able) head, t(able) body, t(able) foot element in table element -->
   <h3>Work Experiences</h3>
   <table cellspacing="10">
     <thead>
@@ -112,14 +150,14 @@
     </thead>
     <tbody>
       <tr>
-        <td>2006~2017</td>
-        <td>Consultant in Horticulture</td>
-        <td>Local Government</td>
+        <th>2006~2017</th>
+        <td>Local Public Officer</td>
+        <td>Rural Development Administration</td>
       </tr>
       <tr>
-        <td>2017~2018</td>
-        <td>Researcher in Biotech</td>
-        <td>Cosmetic Company</td>
+        <th>2017~2018</th>
+        <td>Senior Researcher</td>
+        <td>Biotech Company</td>
       </tr>
     </tbody>
     <tfoot>
@@ -141,6 +179,10 @@
           </tr>
           <tr>
             <td>iOS App Development</td>
+            <td>⭐️⭐️</td>
+          </tr>
+          <tr>
+            <td>Android App Development</td>
             <td>⭐️</td>
           </tr>
         </table>
@@ -153,22 +195,30 @@
             <td>⭐️⭐️⭐️</td>
           </tr>
           <tr>
-            <td>Data Analysis</td>
+            <td>C, C++</td>
             <td>⭐️⭐️</td>
+          </tr>
+          <tr>
+            <td>Data Analysis</td>
+            <td>⭐️</td>
           </tr>
         </table>
       </td>
     </tr>
   </table>
 
-  <!-- Or just simply like this
-  <table cellspacing="10">
+  <!-- Or simply like this
+  <table cellspacing="20">
     <tr>
       <td>Web Development</td>
       <td>⭐️⭐️⭐️</td>
     </tr>
     <tr>
       <td>iOS App Development</td>
+      <td>⭐️⭐️</td>
+    </tr>
+    <tr>
+      <td>Android App Development</td>
       <td>⭐️</td>
     </tr>
     <tr>
@@ -176,16 +226,24 @@
       <td>⭐️⭐️⭐️</td>
     </tr>
     <tr>
-      <td>Data Analysis</td>
+      <td>C, C++</td>
       <td>⭐️⭐️</td>
+    </tr>
+    <tr>
+      <td>Data Analysis</td>
+      <td>⭐️</td>
     </tr>
   </table>
   -->
 
   <hr>
 
-  <a href="hobbies.html">My Hobbies</a> <br>
-  <a href="contact-me.html">Contact Me</a> <br>
+  <a href="hobbies.html">
+    <h3>My Hobbies</h3>
+  </a> <br>
+  <a href="contact-me.html">
+    <h3>Contact Me</h3>
+  </a> <br>
 
   <hr>
 
