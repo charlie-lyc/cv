@@ -1,9 +1,17 @@
 body {
+  /* selecting from https://colorhunt.co/ */
   background-color: #EAF6F6;
 }
 
 hr {
-  background-color: white;
+  /* first configuration of this page*/
+  /* background-color: white;
   border-style: none;
-  height: 2px;
+  height: 3px; */
+  /* clone http://seanhalpin.io/ */
+  width: 6%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: #e0dede;
 }
