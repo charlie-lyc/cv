@@ -1,0 +1,33 @@
+/* browser's CSS default values : example
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+      }
+  https://www.w3schools.com/cssref/css_default_values.asp */
+body {
+  /* selecting from https://colorhunt.co/ */
+  /* property : value */
+  background-color: #EAF6F6;
+}
+
+hr {
+  /* 1. first configuration */
+  /* background-color: white;
+  border-style: none;
+  height: 3px; */
+  /* 2. clone this website's hr -> http://seanhalpin.io/ */
+  border-color: #e0dede;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 6%;
+}
+
+h1, h2, h3{
+  color: #66BFBF ;
+}
