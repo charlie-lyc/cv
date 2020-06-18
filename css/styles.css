@@ -1,14 +1,18 @@
-/* browser's CSS default values : example
-  hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-      }
+/* user agent stylesheet : Chrome browser's CSS default values
+  ex) hr {
+         display: block;
+         margin-top: 0.5em;
+         margin-bottom: 0.5em;
+         margin-left: auto;
+         margin-right: auto;
+         border-style: inset;
+         border-width: 1px;
+       }
   https://www.w3schools.com/cssref/css_default_values.asp */
+
+/* CSS basic */
+/* who?      what?     how?    */
+/* Selector {Property: Value;} */
 body {
   /* selecting from https://colorhunt.co/ */
   /* property : value */
@@ -20,7 +24,7 @@ hr {
   /* background-color: white;
   border-style: none;
   height: 3px; */
-  /* 2. clone this website's hr -> http://seanhalpin.io/ */
+  /* 2. clone this website => http://seanhalpin.io/ */
   border-color: #e0dede;
   border-style: none;
   border-top-style: dotted;
@@ -28,6 +32,19 @@ hr {
   width: 6%;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
   color: #66BFBF ;
+}
+
+table {
+  border-spacing: 10px;
+  padding: 10px;
+}
+
+.profile-border {
+  border-spacing: 20px;
+}
+
+.circular {
+  border-radius: 100%;
 }
