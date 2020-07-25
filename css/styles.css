@@ -1,3 +1,5 @@
+/* Box Model: margin, (background-color, background-image), border, padding, content */
+
 /* user agent stylesheet : Chrome browser's CSS default values
   ex) hr {
          display: block;
@@ -37,6 +39,7 @@ h1, h2, h3 {
 }
 
 table {
+  /* border-spacing: modify gap between cell and cell in table */
   border-spacing: 10px;
   padding: 10px;
 }
@@ -48,3 +51,4 @@ table {
 .circular {
   border-radius: 100%;
 }
+/* 'display' property : none, block, inline, inline-block */
